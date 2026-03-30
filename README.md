@@ -54,3 +54,11 @@ curl -X POST "http://localhost:8080/mcp" -H "Content-Type: application/json" -d 
 ```powershell
 mvn test
 ```
+
+## MCP Inspector
+The [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) can be used to interact with the MCP endpoint and visualize the available tools and their schemas. 
+Just point it to `http://localhost:8080/mcp` and explore!
+
+```powershell
+npx @modelcontextprotocol/inspector
+```
