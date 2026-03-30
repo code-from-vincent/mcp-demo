@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: mcp-demo
+
+  ai:
+    mcp:
+      server:
+        enabled: true
+        name: demo-mcp-server
+        protocol: STREAMABLE
+        type: sync
+        instructions: |
+          Demo MCP server that exposes hello tools.
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
