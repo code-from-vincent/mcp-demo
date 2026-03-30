@@ -1,6 +1,6 @@
-package com.example.demo.mcp;
+package com.example.demo.config;
 
-import com.example.demo.service.GreetingService;
+import com.example.demo.greeting.service.GreetingService;
 import lombok.RequiredArgsConstructor;
 import org.springaicommunity.mcp.annotation.McpTool;
 import org.springaicommunity.mcp.annotation.McpToolParam;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @RequiredArgsConstructor
 @Component
-public class GreetingMcpTools {
+public class McpTools {
 
     private final GreetingService greetingService;
 

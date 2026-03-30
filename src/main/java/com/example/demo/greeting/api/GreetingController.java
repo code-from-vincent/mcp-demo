@@ -1,6 +1,6 @@
-package com.example.demo.api;
+package com.example.demo.greeting.api;
 
-import com.example.demo.service.GreetingService;
+import com.example.demo.greeting.service.GreetingService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
